@@ -29,11 +29,11 @@ The dataset used for this project contains real-world data science job informati
 - 📍 Locations
 - 🛠️ Skills
 
-# Dashboard Build
+## Dashboard Build
 
-## 📉 Charts
+### 📉 Charts
 
-### 📊 Data Science Job Salaries - Bar Chart
+#### 📊 Data Science Job Salaries - Bar Chart
 
 1_Salary_Dashboard_Chart1.png
 
@@ -42,7 +42,7 @@ The dataset used for this project contains real-world data science job informati
 - 📉 Data Organization: Sorted job titles by descending salary for improved readability.
 - 💡 Insights Gained: This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
-### 🗺️ Country Median Salaries - Map Chart
+#### 🗺️ Country Median Salaries - Map Chart
 
 1_Salary_Dashboard_Country_Map.gif
 
@@ -52,9 +52,9 @@ The dataset used for this project contains real-world data science job informati
 👁️ Visual Enhancement: Improved readability and immediate understanding of geographic salary trends.
 💡 Insights Gained: Enables quick grasp of global salary disparities and highlights high/low salary regions.
 
-## 🧮 Formulas and Functions
+### 🧮 Formulas and Functions
 
-### 💰 Median Salary by Job Titles
+#### 💰 Median Salary by Job Titles
 
 ```
 =MEDIAN(
@@ -73,15 +73,15 @@ IF(
 🎯 Tailored Insights: Provides specific salary information for job titles, regions, and schedule types.
 🔢 Formula Purpose: This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
-### 🍽️ Background Table
+#### 🍽️ Background Table
 
 1_Salary_Dashboard_Screenshot1.png
 
-### 📉 Dashboard Implementation
+#### 📉 Dashboard Implementation
 
 1_Salary_Dashboard_Job_Title.png
 
-## ⏰ Count of Job Schedule Type
+### ⏰ Count of Job Schedule Type
 
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
@@ -90,17 +90,17 @@ IF(
 -🔍 Unique List Generation: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
 - 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
 
-### 🍽️ Background Table
+#### 🍽️ Background Table
 
 1_Salary_Dashboard_Screenshot2.png
 
-## 📉 Dashboard Implementation:
+#### 📉 Dashboard Implementation:
 
 1_Salary_Dashboard_Type.png
 
-## ❎ Data Validation
+### ❎ Data Validation
 
-### 🔍 Filtered List
+#### 🔍 Filtered List
 
 - 🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
 - 🎯 User input is restricted to predefined, validated schedule types
