@@ -66,7 +66,5 @@ Project #2: Share w/ Git & GitHub
 Project #2: Document w/ README.md
 
 
-by Luke Barousse
-
-https://youtu.be/pCJ15nGFgVg?si=HOsTCWC-3JP-M3MI
+by:Luke Barousse - https://youtu.be/pCJ15nGFgVg?si=HOsTCWC-3JP-M3MI
 
