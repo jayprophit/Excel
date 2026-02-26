@@ -44,15 +44,15 @@ I first used Power Query to extract the original data (data_salary_all.xlsx) and
 - 🗃️ First one with all the data jobs information.
 - 🔧 The second listing the skills for each job ID.
 
-### 🔄 Transform
+#### 🔄 Transform
 
 Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
 
-### 📊 data_jobs_all
+-- 📊 data_jobs_all
 
 2_Project_Analysis_Screenshot1.png
 
-#### 🛠️ data_job_skills
+-- 🛠️ data_job_skills
 
 2_Project_Analysis_Screenshot2.png
 
@@ -60,11 +60,11 @@ Then, I transformed each query by changing column types, removing unnecessary co
 
 Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
 
-### 📊 data_jobs_all
+-- 📊 data_jobs_all
 
 2_Project_Analysis_Screenshot3.png
 
-#### 🛠️ data_job_skills
+-- 🛠️ data_job_skills
 
 2_Project_Analysis_Screenshot4.png
 
@@ -128,7 +128,8 @@ These salary insights are important for planning and salary negotiations, helpin
 
 - 🔗 I created a data model by integrating the data_jobs_all and data_jobs_skills tables into one model.
 - 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
-🔗 Data Model
+
+#### 🔗 Data Model
 
 I created a relationship between my two tables using the job_id column.
 
